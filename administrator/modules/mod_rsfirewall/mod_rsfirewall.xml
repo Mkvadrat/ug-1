@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" client="administrator"  version="1.5.0" position="cpanel">
+	<name>RSFirewall!</name>
+	<author>RSJoomla.com</author>
+	<creationDate>March 2009</creationDate>
+	<copyright>Copyright (C) 2009 rsjoomla.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@rsjoomla.com</authorEmail>
+	<authorUrl>www.rsjoomla.com</authorUrl>
+	<version>1.0.0</version>
+	<description>This module will display the status of RSFirewall!; remember to publish it in the cpanel position.</description>
+	<files>
+		<filename module="mod_rsfirewall">mod_rsfirewall.xml</filename>
+		<filename module="mod_rsfirewall">mod_rsfirewall.php</filename>
+		<filename module="mod_rsfirewall">mod_rsfirewall.css</filename>
+		<filename module="mod_rsfirewall">rsfirewall.jpg</filename>
+	</files>
+	<params>
+	</params>
+</install>

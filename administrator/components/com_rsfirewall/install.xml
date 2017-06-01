@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5" method="upgrade">
+<name>RSFirewall!</name>
+<creationDate>13/05/2009</creationDate>
+<author>www.rsjoomla.com</author>
+<copyright>(C) 2009 www.rsjoomla.com</copyright>
+<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license> 
+<authorEmail>support@rsjoomla.com</authorEmail>
+<authorUrl>www.rsjoomla.com</authorUrl>
+<version>1.0.0</version>
+<description>RSFirewall! adds a new layer of security to your Joomla! powered website.</description>
+
+<installfile>install.rsfirewall.php</installfile>
+<uninstallfile>uninstall.rsfirewall.php</uninstallfile>
+
+<install>
+	<sql>
+		<file driver="mysql" charset="utf8">install.mysql.utf8.sql</file>
+		<file driver="mysql">install.mysql.nonutf8.sql</file>
+	</sql>
+</install>
+
+<uninstall>
+	<sql>
+		<file driver="mysql" charset="utf8">uninstall.mysql.utf8.sql</file>
+		<file driver="mysql">uninstall.mysql.nonutf8.sql</file>
+	</sql>
+</uninstall>
+
+<administration>
+
+	<menu img="../administrator/components/com_rsfirewall/assets/images/rsfirewall.gif">RSFirewall!</menu>
+	<submenu>
+	      <menu link="option=com_rsfirewall">System Overview</menu>
+	      <menu link="option=com_rsfirewall&amp;view=check">System Check</menu>
+	      <menu link="option=com_rsfirewall&amp;view=logs">System Logs</menu>
+	      <menu link="option=com_rsfirewall&amp;view=lockdown">System Lockdown</menu>
+	      <menu link="option=com_rsfirewall&amp;view=configuration">Firewall Configuration</menu>
+	      <menu link="option=com_rsfirewall&amp;view=feeds">RSS Feeds Configuration</menu>
+	      <menu link="option=com_rsfirewall&amp;view=updates">Updates</menu>
+	</submenu>
+
+	<files>
+		<filename>install.rsfirewall.php</filename>
+		<filename>uninstall.rsfirewall.php</filename>
+		<filename>install.mysql.utf8.sql</filename>
+		<filename>install.mysql.nonutf8.sql</filename>
+		<filename>uninstall.mysql.utf8.sql</filename>
+		<filename>uninstall.mysql.nonutf8.sql</filename>
+	</files>
+	
+	<files folder="admin">
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>rsfirewall.php</filename>
+		<folder>assets</folder>
+		<folder>controllers</folder>
+		<folder>helpers</folder>
+		<folder>models</folder>
+		<folder>tables</folder>
+		<folder>views</folder>
+	</files>
+
+	<languages>
+		<language tag="en-GB">languages/en-GB.com_rsfirewall.ini</language>
+	</languages>
+
+</administration>
+
+<params />
+
+<plugins>
+	<plugin plugin="rsfirewall" order="100" group="system">
+			<files folder="plg_rsfirewall">
+				<file>rsfirewall.php</file>
+				<file>rsfirewall.xml</file>
+			</files>
+			
+		<media />
+	</plugin>
+</plugins>
+
+<modules>
+	<module module="mod_rsfirewall" title="RSFirewall! Cpanel Module" position="cpanel" order="0" client="administrator">
+		<files folder="mod_rsfirewall">
+			<file>mod_rsfirewall.xml</file>
+			<file>mod_rsfirewall.css</file>
+			<file>mod_rsfirewall.php</file>
+			<file>index.html</file>
+		</files>
+		<media />
+	</module>
+</modules>
+
+<check>
+	<directory>/plugins/system</directory>
+	<extension name="rsfirewall" type="plugins" field="published" value="1">element='rsfirewall'</extension>
+	<directory>/administrator/modules</directory>
+	<extension name="mod_rsfirewall"  type="modules" field="published" value="1">module='mod_rsfirewall'</extension>
+</check>
+
+</install>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+<name>HOT Image Slider</name> 
+<author>HotJoomlaTemplates.com</author> 
+<creationDate>2009-09-15</creationDate> 
+<copyright>Copyright 2009 by ArhiNet d.o.o.</copyright>
+<license>GNU General Public License version 2 or later</license>
+<authorEmail>info@hotjoomlatemplates.com</authorEmail> 
+<authorUrl>http://www.hotjoomlatemplates.com</authorUrl> 
+<version>1.5.25</version> 
+<description>Hot Image Slider - Free module from HotJoomlaTemplates.com</description>
+<files>
+	<filename module="mod_hot_image_slider">mod_hot_image_slider.php</filename>
+	<filename>index.html</filename>
+	<folder>images</folder>
+	<folder>js</folder>
+	<folder>tmpl</folder>
+</files>
+<languages>
+	<language tag="en-GB">en-GB.mod_hot_image_slider.ini</language>
+</languages>
+<params>
+	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	<param name="enablejQuery" type="list" default="1" label="LABEL JQUERY" description="DESC JQUERY">
+		<option value="1">Enable</option>
+		<option value="0">Disable</option>
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	<param name="sliderWidth" type="text" default="300" label="LABEL SLIDER WIDTH" description="DESC SLIDER WIDTH" />
+	<param name="sliderHeight" type="text" default="150" label="LABEL SLIDER HEIGHT" description="DESC SLIDER HEIGHT" />
+	<param name="borderWidth" type="text" default="20" label="LABEL BORDER WIDTH" description="DESC BORDER WIDTH" />
+	<param name="backgroundColor" type="text" default="000000" label="LABEL BACKGROUND" description="DESC BACKGROUND" />
+	<param name="descColor" type="text" default="ffffff" label="LABEL DESC COLOR" description="DESC DESC COLOR" />
+	<param name="showButtons" type="list" default="1" label="LABEL BUTTONS" description="DESC BUTTONS">
+		<option value="1">Enable</option>
+		<option value="0">Disable</option>
+	</param>
+	<param name="showNames" type="list" default="1" label="LABEL NAMES" description="DESC NAMES">
+		<option value="1">Enable</option>
+		<option value="0">Disable</option>
+	</param>
+	<param name="showDesc" type="list" default="1" label="LABEL DESC" description="DESC DESC">
+		<option value="1">Enable</option>
+		<option value="0">Disable</option>
+	</param>
+	<param name="showLink" type="list" default="1" label="LABEL SHOW LINK" description="DESC SHOW LINK">
+		<option value="1">Enable</option>
+		<option value="0">Disable</option>
+	</param>
+	<param name="linkNewWindow" type="list" default="0" label="LABEL LINK NEW WINDOW" description="DESC LINK NEW WINDOW">
+		<option value="1">Enable</option>
+		<option value="0">Disable</option>
+	</param>
+	<param name="animation" type="list" default="0" label="LABEL ANIMATION" description="DESC ANIMATION">
+		<option value="slide">Slide</option>
+		<option value="fade">Fade</option>
+	</param>
+	<param name="fadeSpeed" type="text" default="600" label="LABEL FADE SPEED" description="DESC FADE SPEED" />
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	<param name="buttonColor" type="list" default="green" label="LABEL BUTTON COLOR" description="DESC BUTTON COLOR">
+		<option value="green">green</option>
+		<option value="yellow">yellow</option>
+		<option value="brick">brick</option>
+		<option value="pink">pink</option>
+		<option value="purple">purple</option>
+		<option value="white">white</option>
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	<param name="imageFolder" type="text" default="images/stories" label="LABEL FOLDER" description="DESC FOLDER" />
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	<param type="spacer" default="Image 1" />
+	<param name="image1" type="text" default="" label="LABEL IMAGE" description="DESC IMAGE" />
+	<param name="image1title" type="text" default="" label="LABEL IMAGE TITLE" description="DESC IMAGE TITLE" />
+	<param name="image1desc" type="text" default="" label="LABEL IMAGE DESC" description="DESC IMAGE DESC" />
+	<param name="image1link" type="text" default="" label="LABEL IMAGE LINK" description="DESC IMAGE LINK" />
+	<param type="spacer" default="Image 2" />
+	<param name="image2" type="text" default="" label="LABEL IMAGE" description="DESC IMAGE" />
+	<param name="image2title" type="text" default="" label="LABEL IMAGE TITLE" description="DESC IMAGE TITLE" />
+	<param name="image2desc" type="text" default="" label="LABEL IMAGE DESC" description="DESC IMAGE DESC" />
+	<param name="image2link" type="text" default="" label="LABEL IMAGE LINK" description="DESC IMAGE LINK" />
+	<param type="spacer" default="Image 3" />
+	<param name="image3" type="text" default="" label="LABEL IMAGE" description="DESC IMAGE" />
+	<param name="image3title" type="text" default="" label="LABEL IMAGE TITLE" description="DESC IMAGE TITLE" />
+	<param name="image3desc" type="text" default="" label="LABEL IMAGE DESC" description="DESC IMAGE DESC" />
+	<param name="image3link" type="text" default="" label="LABEL IMAGE LINK" description="DESC IMAGE LINK" />
+	<param type="spacer" default="Image 4" />
+	<param name="image4" type="text" default="" label="LABEL IMAGE" description="DESC IMAGE" />
+	<param name="image4title" type="text" default="" label="LABEL IMAGE TITLE" description="DESC IMAGE TITLE" />
+	<param name="image4desc" type="text" default="" label="LABEL IMAGE DESC" description="DESC IMAGE DESC" />
+	<param name="image4link" type="text" default="" label="LABEL IMAGE LINK" description="DESC IMAGE LINK" />
+	<param type="spacer" default="Image 5" />
+	<param name="image5" type="text" default="" label="LABEL IMAGE" description="DESC IMAGE" />
+	<param name="image5title" type="text" default="" label="LABEL IMAGE TITLE" description="DESC IMAGE TITLE" />
+	<param name="image5desc" type="text" default="" label="LABEL IMAGE DESC" description="DESC IMAGE DESC" />
+	<param name="image5link" type="text" default="" label="LABEL IMAGE LINK" description="DESC IMAGE LINK" />
+	<param type="spacer" default="Image 6" />
+	<param name="image6" type="text" default="" label="LABEL IMAGE" description="DESC IMAGE" />
+	<param name="image6title" type="text" default="" label="LABEL IMAGE TITLE" description="DESC IMAGE TITLE" />
+	<param name="image6desc" type="text" default="" label="LABEL IMAGE DESC" description="DESC IMAGE DESC" />
+	<param name="image6link" type="text" default="" label="LABEL IMAGE LINK" description="DESC IMAGE LINK" />
+	<param type="spacer" default="Image 7" />
+	<param name="image7" type="text" default="" label="LABEL IMAGE" description="DESC IMAGE" />
+	<param name="image7title" type="text" default="" label="LABEL IMAGE TITLE" description="DESC IMAGE TITLE" />
+	<param name="image7desc" type="text" default="" label="LABEL IMAGE DESC" description="DESC IMAGE DESC" />
+	<param name="image7link" type="text" default="" label="LABEL IMAGE LINK" description="DESC IMAGE LINK" />
+	<param type="spacer" default="Image 8" />
+	<param name="image8" type="text" default="" label="LABEL IMAGE" description="DESC IMAGE" />
+	<param name="image8title" type="text" default="" label="LABEL IMAGE TITLE" description="DESC IMAGE TITLE" />
+	<param name="image8desc" type="text" default="" label="LABEL IMAGE DESC" description="DESC IMAGE DESC" />
+	<param name="image8link" type="text" default="" label="LABEL IMAGE LINK" description="DESC IMAGE LINK" />
+	<param type="spacer" default="Image 9" />
+	<param name="image9" type="text" default="" label="LABEL IMAGE" description="DESC IMAGE" />
+	<param name="image9title" type="text" default="" label="LABEL IMAGE TITLE" description="DESC IMAGE TITLE" />
+	<param name="image9desc" type="text" default="" label="LABEL IMAGE DESC" description="DESC IMAGE DESC" />
+	<param name="image9link" type="text" default="" label="LABEL IMAGE LINK" description="DESC IMAGE LINK" />
+</params>
+</install>

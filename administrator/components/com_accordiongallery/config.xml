@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+		<param name="cat_path" type="text" default="images/accordiongallery/galleries" label="Categories Images Folder" description="The path where Categories Images will be stored" size="80" />
+		<param name="pic_path" type="text" default="images/accordiongallery/gallery" label="Pictures Images Folder" description="The path where Pictures Images will be stored" size="80" />
+		<param name="thumb_x" type="text" default="70" label="Generated Thumb Widht" description="Auto Generated Thumb Widht" size="8" />
+		<param name="thumb_y" type="text" default="50" label="Generated Thumb Height" description="Auto Generated Thumb Height" size="8" />
+		<param name="secur_w" type="text" default="telx3eis7d" label="Component Security Word" description="Please type random unique word containing symbols: a-zA-Z0-9" size="8" />
+		<param name="usemd" type="list" default="2" label="Set meta data" description="Set component meta data" > 
+			<option value="1">yes</option>
+			<option value="2">no</option>
+		</param>
+		<param name="mdatad" type="textarea" default="" label="Meta data description" description="Meta data description" cols="50" rows="4" />
+		<param name="mdatak" type="textarea" default="" label="Meta data keywords" description="Meta data keywords" cols="50" rows="4" />
+	</params>
+</config>

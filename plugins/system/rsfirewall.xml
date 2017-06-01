@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<install type="plugin" group="system" version="1.5">
+	<name>System - RSFirewall! Active Scanner</name>
+	<creationDate>May 2009</creationDate>
+	<author>www.rsjoomla.com</author>
+	<copyright>(C) 2007-2009 www.rsjoomla.com</copyright>
+	<authorEmail>support@rsjoomla.com</authorEmail>
+	<authorUrl>www.rsjoomla.com</authorUrl>
+	<version>1.0.0</version>
+	<description>The RSFirewall! Active Scanner System Plugin needs to be enabled in order for RSFirewall! to work correctly.</description>
+	<files>
+		<filename plugin="rsfirewall">rsfirewall.php</filename>
+	</files>
+	<params>
+ 		
+	</params>
+</install>

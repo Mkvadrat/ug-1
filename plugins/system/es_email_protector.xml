@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+<install type="plugin" group="system" version="1.5" method="upgrade">
+	<name>System - E-mail Protector</name>
+	<author>Enless Soft, Ltd.</author>
+	<creationDate>May 2009</creationDate>
+	<copyright>(C) 2008-2010 Enless Soft Ltd. All rights reserved.</copyright>
+	<license>GNU/GPL v.2 http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</license>
+	<authorEmail>joomla@enless-soft.com</authorEmail>
+	<authorUrl>http://enless-soft.com</authorUrl>
+	<version>1.0</version>
+	<description>
+		E-mail Protector - hides e-mail addresses from robots. Works anywhere in the page.</description>
+	<files>
+		<filename plugin="es_email_protector">es_email_protector.php</filename>
+	</files>
+	
+</install>

@@ -1,0 +1,23 @@
+<?xml version="1.1" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content" method="upgrade">
+    <name>Content - Film Gallery</name>
+    <author>DesignCompass corp</author>
+    <creationDate>March 2011</creationDate>
+    <copyright>Copyright (C) 2010-2011 DesignCompassCorp. All rights reserved.</copyright>
+    <license>GNU General Public License</license>
+    <authorEmail>admin@designcompasscorp.com</authorEmail>
+    <authorUrl>http://www.designcompasscorp.com/</authorUrl>
+    <version>1.0.6</version>
+    <description>FilmGallery Plugin v 1.0.6 (March 2011) - A plugin to show images in a screen with film bar to allow image selection.</description>
+    <files>
+        <filename plugin="filmgallery">filmgallery.php</filename>
+		<filename>filmgallery.xml</filename>
+		
+		<filename>filmgalleryfiles/film_h.gif</filename>
+		<filename>filmgalleryfiles/film_v.gif</filename>
+		<filename>filmgalleryfiles/glass.png</filename>
+		<filename>filmgalleryfiles/license.txt</filename>
+		<filename>filmgalleryfiles/render.php</filename>
+    </files>
+
+</install>

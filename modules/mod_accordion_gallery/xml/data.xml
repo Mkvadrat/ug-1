@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?><data>
+	
+	<settings>
+		<gallery_width>1098</gallery_width>
+		<gallery_height>650</gallery_height>
+		<title_size>18</title_size>
+		<title_color>FFD700</title_color>
+		<description_size>12</description_size>
+		<description_color>FFFFFF</description_color>
+		<auto_play>true</auto_play>
+		<change_time>9</change_time>
+		<accord_location>right</accord_location>
+		<tab>
+			<position>vertical</position>
+			<width>22</width>
+			<shadow>true</shadow>
+			<open_time>0.5</open_time>
+			<open_mode>click</open_mode>
+			<font_size>20</font_size>
+			<text_color>FFFFFF</text_color>
+		</tab>
+
+		<display_template>
+			<type>3</type>
+			<change_time>.5</change_time>			
+
+		<template_fourth>
+				<link_text>Read More</link_text>
+				<description_width>650</description_width>
+				<description_background_color>000000</description_background_color>
+				<description_background_alpha>0.7</description_background_alpha>
+			</template_fourth>
+				
+		
+		<template_third>
+				<controls_position_y>300</controls_position_y>
+				<description_background_color>000000</description_background_color>
+				<description_background_alpha>0.7</description_background_alpha>
+			</template_third>
+
+			<template_second>
+				<link_text>Read More</link_text>
+				<description_width>650</description_width>
+				<description_background_color>000000</description_background_color>				
+			</template_second>
+			
+			<template_first>
+				<link_text>Read More</link_text>
+				<picture_height>650</picture_height>
+			</template_first>
+			
+			<controls>
+				<show>false</show>
+				<button_width>11</button_width>
+				<button_height>11</button_height>
+				<button_color>ffffff</button_color>
+				<button_color_over>ff5a01</button_color_over>
+			</controls>
+		</display_template>
+
+		<price>
+			<x>100</x>
+			<y>100</y>
+			<width>120</width>
+			<height>120</height>
+			<img>http://ug-1.com.ua/components/com_accordiongallery/price_images/flower_blue.png</img>
+			<symbol>$</symbol>
+			<label_size>20</label_size>
+			<label_color>FFFFFF</label_color>
+		</price>
+
+	</settings>
+	<snow_effect 	
+		type="0"
+		
+		minimumSize="0.3"
+		maximumSize="0.7"
+		
+		minimumSpeedY="2"
+		maximumSpeedY="4"
+		
+		minimumSpeedX="0"
+		maximumSpeedX="0"
+		
+		numOfParticles="120"
+		
+		minimumRotation="0"
+		maximumRotation="0"
+		
+		minimumAlpha="1"
+		maximumAlpha="1"
+		
+		minimumBlur="0"
+		maximumBlur="6"
+	/> <tabs>  <tab play_deafult="true" color="ff7f00" hoverColor="ffa347" > <name><![CDATA[Горпищенко ]]></name> <element> <link target="_self"><![CDATA[http://ug-1.com.ua/gorpichenko]]></link> <picture  scale="false">http://ug-1.com.ua/images/accordiongallery/gallery/8_ug1.jpg</picture> <title><![CDATA[Недорогие однокомнатные и двухкомнатные квартиры по ул. Горпищенко]]></title> <description><![CDATA[Доступное жилье в Нахимовском районе. Детская игровая площадка, баскетбольное поле, автостоянка.Рассрочка до 3-х лет. Лучшие цены в Севастополе. Бронируйте!]]></description><price><regular><![CDATA[]]></regular><updated><![CDATA[]]></updated>	</price> </element> <element> <link target="_self"><![CDATA[]]></link> <picture  scale="false">http://ug-1.com.ua/images/accordiongallery/gallery/1 (1).jpg</picture> <title><![CDATA[DSC04920]]></title> <description><![CDATA[DSC04920]]></description><price><regular><![CDATA[]]></regular><updated><![CDATA[]]></updated>	</price> </element>	</tab> <tab color="246FA8" hoverColor="FF7F00" > <name><![CDATA[Челюскинцев 57]]></name> <element> <link target="_self"><![CDATA[http://ug-1.com.ua/cheluskintsev_57]]></link> <picture  scale="false">http://ug-1.com.ua/images/accordiongallery/gallery/uchkuevka_front2.jpg</picture> <title><![CDATA[Жилой комплекс у моря, ул. Челюскинцев 57]]></title> <description><![CDATA[Строящиеся дома рядом с открытым морем в Севастополе! (390-квартирный комплекс, пляж "Учкуевка" - 400метров) ]]></description><price><regular><![CDATA[]]></regular><updated><![CDATA[]]></updated>	</price> </element>	</tab> <tab color="FF3030" hoverColor="FF7F00" > <name><![CDATA[Элитная квартира]]></name> <element> <link target="_self"><![CDATA[http://ug-1.com.ua/elitnaya_kvartira]]></link> <picture  scale="false">http://ug-1.com.ua/images/accordiongallery/gallery/008_1.JPG</picture> <title><![CDATA[Видовая квартира в Севастополе у моря!]]></title> <description><![CDATA[Квартира расположена на берегу черного моря. Квартира в черновой отделке, Общая квартиры площадь 215 кв.м., жилая 115,0 кв.м., 3 комнаты, предусмотрена гардеробная, высота потолка 3,5м., 6 этаж пятиэтажного здания.]]></description><price><regular><![CDATA[]]></regular><updated><![CDATA[]]></updated>	</price> </element>	</tab> <tab color="246FA8" hoverColor="FF7F00" > <name><![CDATA[Апартаменты с яхт-клубом]]></name> <element> <link target="_self"><![CDATA[http://ug-1.com.ua/apartments_fadeeva_18]]></link> <picture  scale="false">http://ug-1.com.ua/images/accordiongallery/gallery/apartment_fadeeva_7.JPG</picture> <title><![CDATA[Апартаменты с яхт-клубом, ул. Фадеева 18]]></title> <description><![CDATA[Апартаменты с причалом (15 метров до моря), по ул.А.Фадеева, (Стрелецкая бухта). Удаление от центра города 10-12 мин. езды автомобилем.]]></description><price><regular><![CDATA[]]></regular><updated><![CDATA[]]></updated>	</price> </element>	</tab> <tab color="246FA8" hoverColor="FF7F00" > <name><![CDATA[Помещения, Маринеско 8а]]></name> <element> <link target="_self"><![CDATA[http://ug-1.com.ua/marinesko_8a/tsokol]]></link> <picture  scale="false">http://ug-1.com.ua/images/accordiongallery/gallery/marinesko_3.jpg</picture> <title><![CDATA[Продажа нежилых помещений, ул. Маринеско 8-а]]></title> <description><![CDATA[Продаются два нежилых многофункциональных помещения площадью 100 м2 и 150 м2 в цокольных этажах нового жилого комплекса в г. Севастополе.&nbsp; ]]></description><price><regular><![CDATA[]]></regular><updated><![CDATA[]]></updated>	</price> </element>	</tab> <tab color="246FA8" hoverColor="FF7F00" > <name><![CDATA[Фадеева 21-Д]]></name> <element> <link target="_self"><![CDATA[http://ug-1.com.ua/fadeeva_21d]]></link> <picture  scale="false">http://ug-1.com.ua/images/accordiongallery/gallery/fadeeva-21(flash).jpg</picture> <title><![CDATA[Фадеева 21-Д]]></title> <description><![CDATA[Жилой дом из современных экологически-чистых материалов в спокойном спальном районе Севастополя. Рядом парк Победы и пляж Омега.]]></description><price><regular><![CDATA[]]></regular><updated><![CDATA[]]></updated>	</price> </element>	</tab> <tab color="246FA8" hoverColor="FF7F00" > <name><![CDATA[Корчагина 13]]></name> <element> <link target="_self"><![CDATA[http://ug-1.com.ua/korchagina_13]]></link> <picture  scale="false">http://ug-1.com.ua/images/accordiongallery/gallery/kochagina_13_1.jpg</picture> <title><![CDATA[Новые квартиры, ул. Корчагина 13]]></title> <description><![CDATA[Очень удачное месторасположение дома, рядом расположены: ТЦ "Апельсин", ДКР, садик, школа, почта, остановки общественного транспорта, до пляжа "Омега" 2 остановки.]]></description><price><regular><![CDATA[]]></regular><updated><![CDATA[]]></updated>	</price> </element>	</tab> <tab color="FF3030" hoverColor="FF7F00" > <name><![CDATA[Дом на берегу моря]]></name> <element> <link target="_self"><![CDATA[http://ug-1.com.ua/dom_v_kazachke]]></link> <picture  scale="false">http://ug-1.com.ua/images/accordiongallery/gallery/Small_IMG_0987.JPG</picture> <title><![CDATA[Дом на берегу моря]]></title> <description><![CDATA[Два дома расположены на берегу моря в бухте Казачьей в непосредственной близости с морем, всего 130 метров, пляж 200 метров!]]></description><price><regular><![CDATA[]]></regular><updated><![CDATA[]]></updated>	</price> </element>	</tab></tabs></data>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="stylesheet" type="text/css" href="css/x_gallery.css" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/easing.js"></script>
+  <script type="text/javascript" src="js/x_gallery.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Template</title>
+  <!--[if lte IE 8]>
+	<style>
+		.x_caption > h3 {
+			position: relative;
+			filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+			top: 60px;
+			left: 0;
+			text-align: left;
+			width: 315px;
+			height: 30px;
+			display: inline-block;
+			font-size: 18px;
+			font-weight: normal;
+		}
+	</style>
+	<![endif]-->
+	<!--[if lte IE 7]>
+	<script>
+	function screwIE() {
+		$('.x_clock').last().click();
+		$('.x_clock').hide();
+	} 
+	$(document).ready(function() {
+		window.setTimeout('screwIE()', 5000);
+	});
+	
+	</script>
+	
+	<![endif]-->
+ </head>
+ <body>
+	<div class="x_gallery" data-xml="data.xml">
+	<div class="x_cover"></div>
+		<ul>
+		</ul>
+	</div>
+ </body>
+ </html>

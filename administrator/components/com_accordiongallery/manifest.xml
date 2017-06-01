@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+	<name>Accordion Gallery</name>
+	<author>xml/swf</author>
+	<creationDate>December 21th, 2011</creationDate>
+	<copyright>Copyright (c) 2011 xml/swf. All rights reserved.</copyright>
+	<authorEmail>info@xmlswf.com</authorEmail>
+	<authorUrl>http://vm.xmlswf.com</authorUrl>
+	<version>2.4</version>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>Thank you for installing Accordion gallery by xml/swf.</description>
+	<installfile>install.php</installfile>
+	<uninstallfile>uninstall.php</uninstallfile>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.sql</file>
+		</sql>
+	</uninstall>
+	<files folder="components/com_accordiongallery">
+		<folder>controllers</folder>
+		<folder>js</folder>
+		<folder>models</folder>
+		<folder>sb</folder>
+		<folder>views</folder>
+		<folder>price_images</folder>
+		<folder>css</folder>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>noimage.jpg</filename>
+		<filename>noimage_thumb.jpg</filename>
+		<filename>accordiongallery.php</filename>
+		<filename>publish_x.png</filename>
+		<filename>tick.png</filename>
+	</files>
+
+		
+	<administration>
+	<menu view="item">Accordion Gallery Component</menu>
+		<submenu>
+			<menu view="item" link="option=com_accordiongallery">Pictures</menu>
+			<menu view="categories" link="option=com_accordiongallery&amp;controller=categories">Categories</menu>
+			<menu view="multiup" link="option=com_accordiongallery&amp;controller=multiup">Multi Upload</menu>
+		</submenu>
+
+		<files folder="administrator/components/com_accordiongallery">
+			<folder>controllers</folder>
+			<folder>models</folder>
+			<folder>swfupload</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+			<filename>accordiongallery.php</filename>
+		</files>
+	</administration>
+	<modules>
+		<module module="mod_accordion_gallery" client="site" />
+	</modules>
+</install>
