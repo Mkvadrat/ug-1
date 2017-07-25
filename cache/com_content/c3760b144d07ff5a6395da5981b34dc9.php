@@ -1,0 +1,33 @@
+<?php die("Access Denied"); ?>
+a:4:{s:4:"body";s:5431:"	
+<div class="art-post">
+     <div class="art-post-body">
+<div class="art-post-inner">
+<div class="art-postheadericons art-metadata-icons">
+<a href="index.php?view=article&amp;catid=2%3A2012-07-30-16-14-38&amp;id=33%3A-21-&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=&amp;option=com_content&amp;Itemid=3" title="Печать" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/templates/yug1/images/printButton.png" alt="Печать"  /></a> | <a href="index.php?option=com_mailto&amp;tmpl=component&amp;link=703978b212d99458a2cd18d9686b4c8703e035c4" title="E-mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/templates/yug1/images/emailButton.png" alt="E-mail"  /></a>
+</div>
+<div class="art-postcontent">
+<div class="art-article"><h2>Жилой комплекс, ул. Фадеева 21-Д, Севастополь </h2><p align="left"><a href="fadeeva_21d" mce_href="fadeeva_21d"><img onmouseout="this.src='http://ug-1.com.ua/images/stories/button_12.png';" onmouseover="this.src='http://ug-1.com.ua/images/stories/button_11.png';" src="images/stories/button_12.png" title="Описание" alt="Описание" mce_src="images/stories/button_12.png" border="0" width="160"></a><img onmouseout="this.src='http://ug-1.com.ua/images/stories/button_2.png';" onmouseover="this.src='http://ug-1.com.ua/images/stories/button_21.png';" src="images/stories/button_2.png" title="Планировки" alt="Планировки" mce_src="images/stories/button_2.png" border="0" width="160"><img onmouseout="this.src='http://ug-1.com.ua/images/stories/button_3.png';" onmouseover="this.src='http://ug-1.com.ua/images/stories/button_31.png';" src="images/stories/button_3.png" title="Документация" alt="Документация" mce_src="images/stories/button_3.png" border="0" width="160"><a href="fadeeva_21d/map" mce_href="fadeeva_21d/map"><img onmouseout="this.src='http://ug-1.com.ua/images/stories/button_4.png';" onmouseover="this.src='http://ug-1.com.ua/images/stories/button_41.png';" src="images/stories/button_4.png" title="Местоположение" alt="Местоположение" mce_src="images/stories/button_4.png" border="0" width="160"></a><a href="fadeeva_21d/photo" mce_href="fadeeva_21d/photo"><img onmouseout="this.src='http://ug-1.com.ua/images/stories/button_5.png';" onmouseover="this.src='http://ug-1.com.ua/images/stories/button_51.png';" src="images/stories/button_5.png" title="Фотографии" alt="Фотографии" mce_src="images/stories/button_5.png" border="0" width="160"></a></p><p align="left"><a href="images/stories/fadeeva_21/fadeeva-21.jpg" target="_blank" mce_href="images/stories/fadeeva_21/fadeeva-21.jpg"><img src="images/stories/fadeeva_21/fadeeva-21.jpg" title="Новые квартиры, ул. Фадеева 21-Д, Севастополь" mce_src="images/stories/fadeeva_21/fadeeva-21.jpg" alt="купить квартиру в Севастополе, ул. Фадеева 21-д" align="left" width="480"></a> </p><h3 align="right">Статус: <font color="#008000">готово</font></h3><p align="left">&nbsp;</p><p align="left">&nbsp;</p><p align="left">&nbsp;</p><p align="left">&nbsp;</p><p align="left">&nbsp;</p><p align="left">&nbsp;</p><p align="left">&nbsp;</p><p align="left">&nbsp;</p><p align="left">&nbsp;</p><p align="left">&nbsp;</p><p align="left">&nbsp;</p><p align="left">&nbsp;</p><p align="left">&nbsp;</p><p align="left">&nbsp;</p><p align="left"><font color="#0000FF"><b>Адрес:</b></font> г. Севастополь, ул. Фадеева 21-Д<br /><font color="#0000FF"><b>Количество домов:</b></font> 2<br /><font color="#0000FF"><b>Количество квартир:</b></font> 60<br /><font color="#0000FF"><b>Стоимость квадратного метра:</b></font> от <font color="#FF0000"><b>790</b></font> до <font color="#FF0000"><b>860</b></font> у.е.<font color="#0000FF"><br /><b>Срок начала строительства:</b></font> 4-й квартал 2010 г.<br /><font color="#0000FF"><b>Срок окончания строительства:</b></font> 4-й квартал 2011 г.</p><p align="left"><b>Жилой дом из современных экологически-чистых материалов в спокойном спальном районе Севастополя. Рядом парк Победы и пляж Омега. <font color="#FF0000"></font></b></p><h3><b><font color="#FF0000">Дом сдан! Подкпючены все коммуникации!</font></b> <br /></h3><p>&nbsp;</p><h3 align="center">Расположение жилого комплекса</h3><div style="text-align: center;"><img src="images/stories/fadeeva_21/placed.jpg" mce_src="images/stories/fadeeva_21/placed.jpg" width="800"></div> <br /><p>&nbsp;</p><script src="//yandex.st/share/share.js" type="text/javascript" charset="utf-8"></script>
+<div class="yashare-auto-init" data-yasharel10n="ru" data-yasharetype="none" data-yasharequickservices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir"></div></div>
+</div>
+<div class="cleared"></div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+";s:4:"head";a:10:{s:5:"title";s:55:"Жилой комплекс, ул. Фадеева 21-Д";s:11:"description";s:0:"";s:4:"link";s:0:"";s:8:"metaTags";a:2:{s:10:"http-equiv";a:1:{s:12:"content-type";s:24:"text/html; charset=utf-8";}s:8:"standard";a:3:{s:6:"robots";s:13:"index, follow";s:8:"keywords";s:494:"купить квартиру в севастополе, продажа квартир в севастополе, купить квартиру в севастополе от застройщика, новые квартиры в севастополе, квартиры в севастополе от застройщика, купить квартиру в севастополе у моря, недвижимость севастополя, недвижимость в севастополе";s:5:"title";s:55:"Жилой комплекс, ул. Фадеева 21-Д";}}s:5:"links";a:0:{}s:11:"styleSheets";a:1:{s:62:"http://ug-1.com.ua/plugins/system/osolCaptcha/captchaStyle.css";a:3:{s:4:"mime";s:8:"text/css";s:5:"media";N;s:7:"attribs";a:0:{}}}s:5:"style";a:0:{}s:7:"scripts";a:2:{s:28:"/media/system/js/mootools.js";s:15:"text/javascript";s:27:"/media/system/js/caption.js";s:15:"text/javascript";}s:6:"script";a:1:{s:15:"text/javascript";s:541:"
+		   
+		   				function reloadCapthcha(instanceNo)
+						{
+							var captchaSrc = "http://ug-1.com.ua/index.php?showCaptcha=True&instanceNo="+instanceNo+"&time="+ new Date().getTime();
+							//alert(captachaSrc);
+							//alert(document.getElementById('captchaCode'+instanceNo));
+							document.getElementById('captchaCode'+instanceNo).src = captchaSrc ;
+							//alert(document.getElementById('captchaCode'+instanceNo).src);
+						} 
+						
+			function f3d0d80f2f0(address) {
+				document.location.href = 'mail'+'to:'+address;
+			}
+			";}s:6:"custom";a:0:{}}s:7:"pathway";a:2:{i:0;O:8:"stdClass":2:{s:4:"name";s:23:"Наши объекты";s:4:"link";s:18:"index.php?Itemid=3";}i:1;O:8:"stdClass":2:{s:4:"name";s:55:"Жилой комплекс, ул. Фадеева 21-Д";s:4:"link";s:0:"";}}s:6:"module";a:0:{}}
